@@ -25,5 +25,11 @@ public class RemitterServiceApplication {
 		return "remiiter Service Welcomes You"+name;
 	}
 	
+	@GetMapping("/remitter")
+	public String greeting()
+	{
+		return "remiiter end point";
+	}
+	
 
 }
